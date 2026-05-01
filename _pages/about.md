@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="/cv/">CV</a> · <a href="/blog/">Blog</a> · <a href="mail to:211867@jnu.ac.kr">Contact</a> · <a href="/about-kr/">한국어</a>
+subtitle: <a href="/cv/">CV</a> · <a href="/blog/">Blog</a> · <a href="mail:211867@jnu.ac.kr">Contact</a> · <a href="/about-kr/">한국어</a>
 
 profile:
   align: right
