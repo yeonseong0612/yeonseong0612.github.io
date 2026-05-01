@@ -23,8 +23,9 @@ announcements:
 latest_posts:
   enabled: false
   scrollable: true
-  limit: 3 
+  limit: 3
 ---
+
 Hi, I’m **Yeonseong Kim**, an undergraduate student in **Industrial Engineering** at **Chonnam National University**, minoring in **Artificial Intelligence**.
 
 I am interested in **3D computer vision**, **visual odometry/SLAM**, **spatial AI**, and **robust visual perception** for autonomous systems. My current research focuses on stereo visual odometry, learning-based outlier rejection, and geometry-aware perception.
