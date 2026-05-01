@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="/cv/">CV</a> · <a href="/blog/">Blog</a> · <a href="mail:211867@jnu.ac.kr">Contact</a> · <a href="/about-kr/">한국어</a>
+subtitle: <a href="/cv/">CV</a> · <a href="mailto:211867@jnu.ac.kr">Contact</a> · <a href="/about-kr/">한국어</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: My.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Gwangju, Republic of Korea</p>
@@ -16,29 +16,31 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: true
+  limit: 3 
 ---
-Hi, I’m **Yeonseong** — an undergraduate (Industrial Engineering) and undergraduate researcher at **Chonnam National University**.  
-I’m currently focused on **Visual Odometry (VO)** with **ORB + CUDA acceleration**, and building **PyTorch C++/CUDA Extensions** for feature extraction and matching.
+Hi, I’m **Yeonseong Kim**, an undergraduate student in **Industrial Engineering** at **Chonnam National University**, minoring in **Artificial Intelligence**.
 
-#### What I’m working on
-- Refactoring **CUDA-based ORB** feature extraction & matching into a PyTorch extension  
-- Experiments on a **Stereo VO pipeline** (keypoints/descriptors → matching → 3D point generation) and documenting the process  
-- Research note-taking & literature organization with **Obsidian · Zotero · Research Rabbit**
+I am interested in **3D computer vision**, **visual odometry/SLAM**, **spatial AI**, and **robust visual perception** for autonomous systems. My current research focuses on stereo visual odometry, learning-based outlier rejection, and geometry-aware perception.
 
-#### Interests
-Visual Odometry, ORB/CUDA, PyTorch C++/CUDA Extensions, ROS2, MLOps, Research Tooling/Automation
+#### Research Interests
 
-#### Goals (2025)
-- Secure **TOEFL** score, publish VO pipeline notes on the blog, and keep preparing for **U.S. graduate school (Fall 2027)**
+Visual Odometry/SLAM, 3D Computer Vision, Spatial AI, Robust Visual Perception, Autonomous Driving Perception
 
-#### Motto
-> Explain simply. Implement deeply.  
-> *Make it work, then make it clear.*
+#### Current Research
+
+- Learning-based outlier rejection for robust stereo visual odometry
+
+- Stereo visual odometry on the KITTI Odometry dataset
+
+- CUDA-accelerated feature extraction using PyTorch C++/CUDA extensions
+
+- Vision-based robotic perception for autonomous EV charging
+
+#### Selected Projects
